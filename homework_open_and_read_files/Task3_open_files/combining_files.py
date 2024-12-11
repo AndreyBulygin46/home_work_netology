@@ -2,6 +2,7 @@ def comb_files(names_files: list):
     '''Функция преобразования трех файлов в один'''
     dict_names_files = {}
     for name_file in names_files:
+        # with open(f'homework_open_and_read_files/Task3_open_files/{name_file}', 'r', encoding='utf-8') as file:
         with open(name_file, 'r', encoding='utf-8') as file:
             # Читаем файл, записываем в словарь
             # по ключу name_file как отдельный список
